@@ -1,0 +1,60 @@
+name: haydos_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  provider: ^6.0.5
+  url_launcher: ^6.1.11
+  mongo_dart: ^0.10.2
+  shared_preferences: ^2.2.3
+  google_maps_flutter: ^2.0.6
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/Haydos_App_Logo.png
+    - lib/assets/Haydos_App_Logo_white.png
+    - lib/assets/yazilim_logo.png
+    - lib/assets/iyte_logo_eng.png
+    - lib/assets/hyds_logo.png
+    - lib/assets/logo.png
+    - lib/assets/dogs/incir.png
+    - lib/assets/dogs/alaca.png
+    - lib/assets/dogs/ayşe_safiş.png
+    - lib/assets/dogs/badem.png
+    - lib/assets/dogs/bakır.png
+    - lib/assets/dogs/boncuk.png
+    - lib/assets/dogs/bozo.png
+    - lib/assets/dogs/einstein.png
+    - lib/assets/dogs/gümüş.png
+    - lib/assets/dogs/hector.png
+    - lib/assets/dogs/karamel.png
+    - lib/assets/dogs/mila.png
+    - lib/assets/dogs/mösyö.png
+    - lib/assets/dogs/nazlı.png
+    - lib/assets/dogs/paspas_hades.png
+    - lib/assets/dogs/picasso.png
+    - lib/assets/dogs/şanslı.png
+    - lib/assets/dogs/zeliş.png
+    - lib/assets/dogs/zeytin.png
+    - lib/assets/dogs/zoey.png
+    - lib/assets/adoptions/image1.png
+    - lib/assets/adoptions/image2.png
+    - lib/assets/adoptions/image3.png
+    - lib/assets/adoptions/image4.png
+    - lib/assets/adoptions/image5.png
+    - lib/assets/missings/image1.png
+    - lib/assets/missings/image2.png
+    - lib/assets/missings/image3.png
+    - lib/assets/missings/image4.png
